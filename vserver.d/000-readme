@@ -1,0 +1,18 @@
+# License: GPL-3.0-or-later
+# Copyright (c) Stephan Enderlein 2006-2021
+
+
+# - comments/empty lines can be added
+# - install packages: just list packages to install them
+#apache
+#php
+
+# run commands before copying all files
+pre-cmd: echo "pre-command"
+
+# run commands after copying all files
+post-cmd: echo "post-command"
+
+
+
+
